@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.footer-two {
+  /*border: 2px red solid;*/
+  color: white;
+  background-color: rgb(6, 9, 15);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 20px 400px 20px 70px;
+}
+.footer-two h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.footer-two h2 {
+    color: rgb(41, 182, 246);
+    cursor: pointer;
+}

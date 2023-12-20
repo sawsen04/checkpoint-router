@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.Button {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(41, 182, 246);
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+}
+/*Navbar Section*/
+.navbar-container {
+  border: 1px black solid;
+  background-color: rgb(6, 9, 15);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0px;
+  height: 90px;
+  position: sticky;
+  z-index: 10;
+  top: 0px;
+}
+.navbar-container-list {
+  /*border: 1px red solid;*/
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.navbar-container-list li {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.navbar-container ul li:hover {
+  color: #29b6f6;
+  cursor: pointer;
+}
+.elts-navbar {
+  /*border: 1px white solid;*/
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.circle {
+  border: 1px white solid;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  border-color: red;
+  background-color: red;
+  -webkit-animation: scale-up-center 0.5s ease-in-out 1.5s infinite both;
+  animation: scale-up-center 0.5s ease-in-out 1.5s infinite both;
+}
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+#last-li {
+  /*border: 1px white solid;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#last-li:hover {
+  color: #29b6f6;
+  cursor: pointer;
+}
+
+

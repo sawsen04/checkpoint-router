@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.cards-container {
+  border: 2px black solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 1400px;
+  padding: 60px 40px;
+}
+.image img {
+  border-radius: 20px;
+}
+.rating {
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+}
+.rating p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.cart h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: white;
+}
+.cart h1:hover {
+  color: rgb(41, 182, 246);
+  cursor: pointer;
+}
+.description {
+  border: 1px black solid;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.description h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: grey;
+}
+.description h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: rgb(41, 181, 245);
+  cursor: pointer;
+}
+.Border-cards-container {
+  background-color: rgb(6, 9, 15);
+}
+.inputs {
+  /*border: 2px white solid;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.inputs input {
+  border: 2px rgb(117, 127, 149) solid;
+  background-color: rgb(19, 23, 34);
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  font-size: 1rem;
+  color: white;
+}
+.add-movie {
+  /*border: 1px white solid;*/
+  background-color: rgb(10, 13, 20);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn-add {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 0.5em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+btn-add:active,
+btn-add:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .btn-add {
+    font-size: 17px;
+    min-width: 150px;
+  }
+}
+.cart p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}

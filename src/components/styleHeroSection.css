@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.hero-section-container {
+  border: 3px rgb(41, 182, 246) solid;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+  height: 800px;
+  background-image: url(https://live.themewild.com/moplay/assets/img/breadcrumb/01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-section h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.hero-section h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.hero-section h3 {
+  color: rgb(41, 182, 246);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.hero-section {
+  /* border: 5px white solid;*/
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+}
+.els-hero {
+  /* border: 1px white solid;*/
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 5px;
+}
+.els-hero h2:hover {
+ color: rgb(41, 182, 246);
+ cursor: pointer;
+}
+.border-hero {
+  /*border: 1px red solid;*/
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 650px;
+}
